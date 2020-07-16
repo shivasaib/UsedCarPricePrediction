@@ -4,7 +4,7 @@ We can predict the selling price of the a used car.
  
 kaggle dataset link : https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho
  
-This car price prediction model is deployed in heroku.you can access it with below url.
+This car price prediction model is deployed in heroku. Please click below url for access.
 
 
 App Link : https://used-car-priceprediction.herokuapp.com/
