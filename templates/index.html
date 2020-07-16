@@ -8,10 +8,12 @@
 </head>
 
 <body>
+  
+	
 
-    <div style="color:blue">
+    <div style="color:black">
         <form action="{{ url_for('predict')}}" method="post">
-            <h2>Predictive analysis</h2>
+            <h2>Used Car Price Estimator</h2>
             <h3>Year</h3>
             <input id="first" name="Year" type="number ">
             <h3>What is the Showroom Price of the car ?(In lakhs)</h3><br><input id="second" name="Present_Price" required="required">
@@ -27,10 +29,11 @@
                 <option value="Individual">Individual</option>
             </select>
             <h3>Transmission type</h3><br><select name="Transmission_Mannual" id="research" required="required">
-                <option value="Mannual">Manual Car</option>
-                <option value="Automatic">Automatic Car</option>
+                <option value="Mannual">Manual</option>
+                <option value="Automatic">Automatic</option>
             </select>
-            <br><br><button id="sub" type="submit ">Calculate the Selling Price</button>
+<br>
+            <br><br><button style= background-color:DodgerBlue id="sub" type="submit ">Estimate Selling Price </button>
             <br>
 
 
@@ -48,9 +51,9 @@
 
     <style>
         body {
-            background-color: lightslategray;
-            text-align: center;
-            padding: 0px;
+		  background: lightblue ;
+            	text-align: center;
+            	padding: 0px;
         }
         
         #research {
@@ -103,8 +106,8 @@
         }
         
         #resea {
-            width: 99px;
-            height: 43px;
+            width: 100px;
+            height: 45px;
             text-align: center;
             border-radius: 14px;
             font-size: 18px;
@@ -115,9 +118,10 @@
         }
         
         #sub {
-            width: 120px;
-            height: 43px;
+            width: 150px;
+            height: 50px;
             text-align: center;
+	    color:white;
             border-radius: 14px;
             font-size: 18px;
         }
