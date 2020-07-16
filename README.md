@@ -1,6 +1,6 @@
 # CarPricePrediction
  
-We can predict the selling price of the a used car.
+This model can be used to predict the selling price of the a used car.
  
 kaggle dataset link : https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho
  
